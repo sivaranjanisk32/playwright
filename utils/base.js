@@ -4,6 +4,7 @@ class BaseClass {
         await page.goto(url);
     };
    //changes the local
+    //Tester2 change the local
     static async clickElement(page, locator) {
         await page.click(locator);
     };
