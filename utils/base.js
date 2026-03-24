@@ -3,7 +3,7 @@ class BaseClass {
     static async navigateToUrl(page, url) {
         await page.goto(url);
     };
-
+   //changes the local
     static async clickElement(page, locator) {
         await page.click(locator);
     };
